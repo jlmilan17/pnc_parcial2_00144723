@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: laboratorio-02
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/magic_wand
+    username: postgres
+    password: root
